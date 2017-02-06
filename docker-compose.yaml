@@ -11,7 +11,7 @@ services:
     volumes:
       - ./app/src:/app/src
       - ./app/test:/app/test
-      - ./package.json:/app/package.
+      - ./package.json:/app/package.json
     links:
       - mongo
   mongo:
